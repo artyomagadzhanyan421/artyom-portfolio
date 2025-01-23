@@ -3,6 +3,7 @@ import React from 'react'
 function Socials() {
     return (
         <div className='Projects'>
+            <p className='blockHead'>Let's connect</p>
             <a href="https://sales-project-theta.vercel.app/" className="project" target='_blank'>
                 <img src="/socials/s1.webp" alt="image" />
                 <div>

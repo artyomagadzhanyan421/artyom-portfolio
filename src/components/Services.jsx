@@ -9,6 +9,7 @@ function Services() {
 
     return (
         <div className="Projects">
+            <p className='blockHead'>My servies</p>
             {services.map((service, index) => (
                 <div key={service.id} className="service" onClick={() => toggleDropdown(index)}>
                     <div className="serviceFlex">
