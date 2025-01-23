@@ -1,0 +1,50 @@
+.Projects {
+    margin-top: 24px;
+    padding: 12px;
+}
+
+.Projects .project:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.project {
+    color: white;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, .05);
+    padding: 10px;
+    border-radius: 8px;
+    gap: 20px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    background-color: rgba(255, 255, 255, .09);
+    transform: scale(1.02);
+}
+
+.project img {
+    width: 60px;
+    border-radius: 8px;
+}
+
+.projectName {
+    font-weight: 700;
+}
+
+.projectDesc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+    margin-top: 4px;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+}
+
+.projectIcon {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}

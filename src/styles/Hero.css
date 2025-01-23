@@ -1,0 +1,30 @@
+.Hero {
+    padding: 12px;
+}
+
+.Hero img {
+    border-radius: 50%;
+    width: 128px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 11px;
+}
+
+.name p {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    padding-top: 12px;
+    line-height: 1.4em;
+    max-width: 576px;
+}
