@@ -33,7 +33,7 @@ function Projects() {
                 <img src="/projects/cipher.png" alt="image" />
                 <div>
                     <p className='projectName'>Cipher</p>
-                    <p className="projectDesc">Cybersecurity Website</p>
+                    <p className="projectDesc">Cyber Security Website</p>
                 </div>
                 <div className="projectIcon">
                     <box-icon name='link-external' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
