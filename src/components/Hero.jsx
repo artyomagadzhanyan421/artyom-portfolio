@@ -20,7 +20,7 @@ function Hero() {
         <span className="about">Experienced web developer based in Ashgabat known for creating intuitive and engaging user experiences.</span>
       </center>
       <div className="heroLinks">
-        <a href="#">
+        <a href="#" target='_blank'>
           <box-icon type='solid' name='phone' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
           <span>Book a Call</span>
         </a>
