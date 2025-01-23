@@ -4,15 +4,15 @@
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    height: 57px;
-    width: 57px;
+    height: 55px;
+    width: 55px;
 }
 
 .service {
     color: white;
     cursor: pointer;
     background: rgba(255, 255, 255, .05);
-    padding: 20px;
+    padding: 18px;
     border-radius: 8px;
     transition: 0.3s;
 }
@@ -23,6 +23,7 @@
 
 .service:hover {
     background-color: rgba(255, 255, 255, .09);
+    transform: scale(1.02);
 }
 
 .serviceFlex {

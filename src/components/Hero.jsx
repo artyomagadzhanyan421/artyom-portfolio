@@ -14,7 +14,7 @@ function Hero() {
       </center>
       <div className="name">
         <p>Hi, I'm Artyom</p>
-        <box-icon type='solid' name='badge-check' color="dodgerblue" size="30px"></box-icon>
+        <box-icon type='solid' name='badge-check' color="dodgerblue" size="28px"></box-icon>
       </div>
       <center>
         <span className="about">Experienced web developer based in Ashgabat known for creating intuitive and engaging user experiences.</span>
@@ -26,7 +26,7 @@ function Hero() {
         </a>
         <a href="mailto:artyom.agadzhanyan421@gmail.com">
           <box-icon type='solid' name='envelope' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
-          <span>Email</span>
+          <span>Address</span>
         </a>
       </div>
     </div>

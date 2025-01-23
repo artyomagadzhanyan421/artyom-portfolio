@@ -10,17 +10,14 @@ function Services() {
     return (
         <div className="Projects">
             {services.map((service, index) => (
-                <div key={service.id} className="service">
-                    <div
-                        className="serviceFlex"
-                        onClick={() => toggleDropdown(index)}
-                    >
+                <div key={service.id} className="service" onClick={() => toggleDropdown(index)}>
+                    <div className="serviceFlex">
                         <div className="serviceIcon">
                             <box-icon
                                 type="solid"
                                 name={service.icon}
                                 color="white"
-                                size="31px"
+                                size="28px"
                             ></box-icon>
                         </div>
                         <div>

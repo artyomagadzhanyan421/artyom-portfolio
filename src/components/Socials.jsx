@@ -23,7 +23,7 @@ function Socials() {
                     <box-icon name='link-external' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
                 </div>
             </a>
-            <a href="https://cyber-project-beryl.vercel.app/" className="project" target='_blank'>
+            <a href="https://github.com/artyomagadzhanyan421" className="project" target='_blank'>
                 <img src="/socials/s3.jpg" alt="image" />
                 <div>
                     <p className='projectName'>GitHub</p>
