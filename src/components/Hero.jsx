@@ -9,14 +9,26 @@ import "boxicons";
 function Hero() {
   return (
     <div className='Hero'>
-        <center>
-            <img src="https://yt3.googleusercontent.com/ytc/AIdro_nVKPoGkfw44ICB715GPlzNDsmqZdlwewB1QGa9K4vD94o=s900-c-k-c0x00ffffff-no-rj" alt="image" />
-        </center>
-        <div className="name">
-            <p>Hi, I'm Artyom</p>
-            <box-icon type='solid' name='badge-check' color="dodgerblue" size="30px"></box-icon>
-        </div>
-        <span className="about">A product designer with a proven track record of creating innovative and user-centric designs in the IT and software development sectors. Skilled in working in startups and adept at collaborating with cross-functional teams to deliver exceptional products on time and budget</span>
+      <center>
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_nVKPoGkfw44ICB715GPlzNDsmqZdlwewB1QGa9K4vD94o=s900-c-k-c0x00ffffff-no-rj" alt="image" />
+      </center>
+      <div className="name">
+        <p>Hi, I'm Artyom</p>
+        <box-icon type='solid' name='badge-check' color="dodgerblue" size="30px"></box-icon>
+      </div>
+      <center>
+        <span className="about">Experienced web developer based in Ashgabat known for creating intuitive and engaging user experiences.</span>
+      </center>
+      <div className="heroLinks">
+        <a href="#">
+          <box-icon type='solid' name='phone' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
+          <span>Book a Call</span>
+        </a>
+        <a href="mailto:artyom.agadzhanyan421@gmail.com">
+          <box-icon type='solid' name='envelope' color="rgba(255, 255, 255, .2)" size="20px"></box-icon>
+          <span>Email</span>
+        </a>
+      </div>
     </div>
   )
 }
