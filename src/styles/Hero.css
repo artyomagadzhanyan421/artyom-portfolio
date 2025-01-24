@@ -1,0 +1,12 @@
+.Hero {
+    padding: 65px 0px;
+}
+
+.subHead {
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 10px;
+    border-left: 2px solid red;
+}
