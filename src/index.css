@@ -9,3 +9,7 @@
     font-family: "Inter", serif;
     color: white;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }

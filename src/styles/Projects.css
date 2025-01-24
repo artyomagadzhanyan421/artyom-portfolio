@@ -1,0 +1,44 @@
+.Projects {
+    padding: 12px;
+    margin-top: 24px;
+}
+
+.redirect {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.project {
+    background-color: rgba(255, 255, 255, .05);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.Projects .project:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.project img {
+    width: 58px;
+    border-radius: 5px;
+}
+
+.projectName {
+    color: white;
+    font-weight: 700;
+}
+
+.projectDesc {
+    color: grey;
+    font-size: 14px;
+    margin-top: 3px;
+}
