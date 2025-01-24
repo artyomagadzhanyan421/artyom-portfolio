@@ -1,12 +1,72 @@
 .Hero {
-    padding: 65px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    gap: 20px;
+    padding: 80px 0px;
+    z-index: 1;
 }
 
 .subHead {
     color: black;
     text-transform: uppercase;
+    border-left: 2px solid red;
     font-size: 13px;
     font-weight: 400;
     padding-left: 10px;
-    border-left: 2px solid red;
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-family: "Anton SC", serif;
+    text-transform: uppercase;
+    font-size: 90px;
+    max-width: 800px;
+    line-height: 1.1em;
+    letter-spacing: 1px;
+}
+
+.heading.section {
+    font-size: 80px;
+    max-width: 650px;
+}
+
+.desc {
+    font-size: 18px;
+    max-width: 470px;
+    margin: 25px 0px 35px 0px;
+    line-height: 1.4em;
+}
+
+.link {
+    background: #b8252b;
+    position: relative;
+    width: fit-content;
+    border: 1px solid black;
+    width: 188px;
+    height: 56px;
+}
+
+.link:hover a {
+    top: 0px;
+    left: 0px;
+}
+
+.link a {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    font-size: 14px;
+    width: 188px;
+    height: 56px;
+    font-weight: 600;
+    transition: 0.3s;
 }
