@@ -1,0 +1,42 @@
+.Hero {
+    padding: 12px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 128px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.desc {
+    color: grey;
+    text-align: center;
+    margin: 12px 0px 24px 0px;
+    line-height: 1.4em;
+    max-width: 450px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links a {
+    color: white;
+    background-color: rgba(255, 255, 255, .05);
+    font-size: 14px;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-weight: 600;
+}
