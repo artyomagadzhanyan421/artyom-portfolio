@@ -28,8 +28,8 @@
 }
 
 .project img {
-    width: 58px;
-    border-radius: 5px;
+    width: 57px;
+    border-radius: 7px;
 }
 
 .projectName {
@@ -40,5 +40,6 @@
 .projectDesc {
     color: grey;
     font-size: 14px;
+    font-weight: 500;
     margin-top: 3px;
 }
