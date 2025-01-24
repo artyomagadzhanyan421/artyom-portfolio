@@ -27,7 +27,7 @@ function Socials() {
                 <img src="/socials/s3.jpg" alt="image" />
                 <div>
                     <p className='projectName'>GitHub</p>
-                    <p className='projectDesc'>Source code for my projects!</p>
+                    <p className='projectDesc'>Source code for all my projects!</p>
                 </div>
                 <div className="redirect">
                     <box-icon name='link-external' color="dimgray" size="20px"></box-icon>
