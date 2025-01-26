@@ -17,14 +17,15 @@
 }
 
 .content {
-    margin: 50px auto auto auto;
-    max-width: 600px;
+    margin-top: 50px;
 }
 
 .projects {
     display: grid;
+    margin: auto;
     grid-template-columns: 1fr;
     gap: 10px;
+    max-width: 550px;
 }
 
 .project {
