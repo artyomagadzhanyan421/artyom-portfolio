@@ -13,7 +13,7 @@ function Projects() {
         <p className="blockHeading">My works</p>
       </center>
       <center>
-        <p className="blockDesc">Check out some of my favorite & most recent projects.</p>
+        <p className="blockDesc" style={{ maxWidth: "250px" }}>Check out some of my favorite & most recent projects.</p>
       </center>
       <div className="content">
         <div className="projects">
