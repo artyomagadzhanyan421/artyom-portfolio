@@ -18,7 +18,7 @@ function Projects() {
       <div className="content">
         <div className="projects">
           {projects.map((project) => (
-            <a key={project.id} href={project.href} className="project">
+            <a key={project.id} href={project.href} target="_blank" className="project">
               <img src={project.imgSrc} alt="project" />
               <div className="projectData">
                 <div
