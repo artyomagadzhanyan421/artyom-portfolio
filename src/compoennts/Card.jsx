@@ -72,7 +72,7 @@ function Card() {
                     </center>
                     <div className="links">
                         <a href="#" className='link'>
-                            <span>Get Started</span>
+                            <span>Book a Call</span>
                             <div className="linkIcon">
                                 <box-icon name='right-arrow-alt' color="blue"></box-icon>
                             </div>
