@@ -45,7 +45,7 @@ function Card() {
                         <img src="/avatar.jpg" alt="image" />
                         <div>
                             <div className='name'>
-                                <p>Hi, I'm Artyom!</p>
+                                <p>Artyom Agadzhanyan</p>
                                 <box-icon type='solid' name='badge-check' size="22px" color="dodgerblue"></box-icon>
                             </div>
                             <p className="job">Web developer</p>
@@ -57,17 +57,19 @@ function Card() {
                         </div>
                     </div>
                     <p className="heading">I create websites that work as hard as you do</p>
-                    <div>
-                        <div className="rate">
-                            <img src="/star.png" alt="image" />
-                            <img src="/star.png" alt="image" />
-                            <img src="/star.png" alt="image" />
-                            <img src="/star.png" alt="image" />
-                            <img src="/star.png" alt="image" />
-                            <span>50+ projects</span>
+                    <center>
+                        <div>
+                            <div className="rate">
+                                <img src="/star.png" alt="image" />
+                                <img src="/star.png" alt="image" />
+                                <img src="/star.png" alt="image" />
+                                <img src="/star.png" alt="image" />
+                                <img src="/star.png" alt="image" />
+                                <span>50+ projects</span>
+                            </div>
+                            <p className='desc'>I build websites that solve problems, inspire action, and drive success.</p>
                         </div>
-                        <p className='desc'>I build websites that solve problems, inspire action, and drive success.</p>
-                    </div>
+                    </center>
                     <div className="links">
                         <a href="#" className='link'>
                             <span>Get Started</span>
@@ -75,7 +77,7 @@ function Card() {
                                 <box-icon name='right-arrow-alt' color="blue"></box-icon>
                             </div>
                         </a>
-                        <a href="#" className='link grey'>
+                        <a href="#projects" className='link grey'>
                             <span>My works</span>
                         </a>
                     </div>

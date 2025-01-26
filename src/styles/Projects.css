@@ -1,0 +1,16 @@
+.Block {
+    padding: 100px 30px;
+}
+
+.blockHeading {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.blockDesc {
+    color: grey;
+    font-weight: 600;
+    max-width: 250px;
+    font-size: 17px;
+}
