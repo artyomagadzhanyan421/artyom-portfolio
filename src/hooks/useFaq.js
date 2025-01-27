@@ -10,7 +10,7 @@ const useFaq = () => {
         {
             question: "How long does it take to complete a project?",
             answer:
-                "Project timelines depend on the complexity, but most are finished within 2–4 weeks, allowing time for feedback and revisions.",
+                "Project timelines depend on the complexity, but most are finished within 1-2 weeks, allowing time for feedback and revisions.",
         },
         {
             question: "Can I request additional revisions?",
@@ -20,7 +20,7 @@ const useFaq = () => {
         {
             question: "Do you provide website maintenance?",
             answer:
-                "Yes, I offer ongoing maintenance services, including updates, security checks, performance optimization, and content updates.",
+                "Yes, I offer ongoing maintenance services, including updates, performance optimization, and content updates.",
         },
     ]);
 
