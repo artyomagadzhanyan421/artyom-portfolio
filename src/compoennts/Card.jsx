@@ -48,7 +48,7 @@ function Card() {
                                 <p>Artyom Agadzhanyan</p>
                                 <box-icon type='solid' name='badge-check' size="22px" color="dodgerblue"></box-icon>
                             </div>
-                            <p className="job">Web-designer, developer</p>
+                            <p className="job">Web-developer, designer</p>
                             <div className="socials">
                                 <a href="#" target='_blank'><box-icon name='linkedin-square' type='logo' color="gray" size="19px"></box-icon></a>
                                 <a href="https://github.com/artyomagadzhanyan421" target='_blank'><box-icon name='github' type='logo' color="gray" size="19px"></box-icon></a>
