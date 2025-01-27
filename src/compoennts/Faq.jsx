@@ -1,6 +1,9 @@
 import React from "react";
 import useFaq from "../hooks/useFaq";
 
+// Components
+import Workflow from "./Workflow";
+
 // CSS
 import "../styles/Faq.css";
 
@@ -42,6 +45,7 @@ function Faq() {
                     ))}
                 </div>
             </div>
+            <Workflow />
         </div>
     );
 }
