@@ -93,9 +93,9 @@ function Contact() {
                             <center>
                                 <p
                                     className="blockDesc"
-                                    style={{ maxWidth: "320px" }}
+                                    style={{ maxWidth: "350px" }}
                                 >
-                                    Fill out the form, or reach out directly. I’ll respond
+                                    Fill out the form, to request for the project. I’ll respond
                                     within 24 hours.
                                 </p>
                             </center>
