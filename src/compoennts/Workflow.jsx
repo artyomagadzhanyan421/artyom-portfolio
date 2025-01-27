@@ -6,7 +6,12 @@ import "../styles/Workflow.css";
 // Boxicons
 import "boxicons";
 
+// Hooks
+import useWorkflow from '../hooks/useWorkflow';
+
 function Workflow() {
+    const { steps } = useWorkflow();
+
     return (
         <div className='Workflow'>
             <div className="cardOverlay noneTransformTwo">
@@ -17,43 +22,17 @@ function Workflow() {
                         <p className='flowDesc'>A proven workflow <span>that ensures seamless collaboration and</span> outstanding results.</p>
                     </div>
                 </div>
-                <div className="flow">
-                    <div className="flowIcon">
-                        <div className="dot"></div>
+                {steps.map(step => (
+                    <div className="flow" key={step.id}>
+                        <div className="flowIcon">
+                            <div className="dot"></div>
+                        </div>
+                        <div>
+                            <span className='flowHead'>{`${step.id.toString().padStart(2, '0')}. ${step.title}`}</span>
+                            <p className="flowDesc">{step.description}</p>
+                        </div>
                     </div>
-                    <div>
-                        <span className='flowHead'>01. Discovery call</span>
-                        <p className="flowDesc">We’ll discuss your personal goals and the long-term vision of your brand.</p>
-                    </div>
-                </div>
-                <div className="flow">
-                    <div className="flowIcon">
-                        <div className="dot"></div>
-                    </div>
-                    <div>
-                        <span className='flowHead'>02. Custom design</span>
-                        <p className="flowDesc">I’ll create a custom design tailored to your needs that brings a fresh look.</p>
-                    </div>
-                </div>
-                <div className="flow">
-                    <div className="flowIcon">
-                        <div className="dot"></div>
-                    </div>
-                    <div>
-                        <span className='flowHead'>03. Development</span>
-                        <p className="flowDesc">I'll bring your approved design to life with clean, and efficient code.</p>
-                    </div>
-                </div>
-                <div className="flow">
-                    <div className="flowIcon">
-                        <div className="dot"></div>
-                    </div>
-                    <div>
-                        <span className='flowHead'>04. Launch</span>
-                        <p className="flowDesc">I’ll help you get your website live and ready for the world to make an impact.</p>
-                    </div>
-                </div>
-                
+                ))}
                 <div className="location">
                     <a href="#contact" style={{ display: "flex", alignItems: "center", gap: 5 }}>
                         <span style={{ color: "black", fontWeight: 600 }}>Launch your business</span>
@@ -62,7 +41,7 @@ function Workflow() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Workflow
+export default Workflow;
