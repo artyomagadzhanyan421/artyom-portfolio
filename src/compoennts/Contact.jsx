@@ -73,7 +73,9 @@ function Contact() {
                         </form>
                     </div>
                     <div className="location">
-                        <box-icon name="copyright" size="20px" color="grey"></box-icon>
+                        <div className="locationIcon">
+                            <box-icon name="copyright" size="20px" color="grey"></box-icon>
+                        </div>
                         <p>Copyright 2025. <span style={{ fontWeight: "bold" }}>All rights Reserved.</span></p>
                     </div>
                 </div>

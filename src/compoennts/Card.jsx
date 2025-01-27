@@ -83,7 +83,7 @@ function Card() {
                     </div>
                 </div>
                 <div className="location">
-                    <box-icon name='map' size="20px" color="grey"></box-icon>
+                    <div className='locationIcon'><box-icon name='map' size="20px" color="grey"></box-icon></div>
                     <p>Located in <span style={{ fontWeight: "bold" }}>Ashgabat</span>, available worldwide.</p>
                 </div>
             </div>

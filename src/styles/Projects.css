@@ -70,6 +70,11 @@
 
 .projectTitle p:nth-child(2) {
     color: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
     font-size: 14px;
     font-weight: 600;
 }
@@ -92,4 +97,30 @@
     display: flex;
     border-radius: 50%;
     padding: 15px;
+}
+
+@media(max-width: 600px) {
+    .blockHeading {
+        font-size: 40px;
+    }
+
+    .blockDesc {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 465px) {
+    .blockHeading {
+        font-size: 35px;
+    }
+
+    .Block {
+        padding: 100px 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .project {
+        height: 325px;
+    }
 }

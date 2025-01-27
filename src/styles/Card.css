@@ -208,3 +208,45 @@
     padding: 0px 50px;
     font-size: 13px;
 }
+
+.locationIcon {
+    display: flex;
+}
+
+@media(max-width: 600px) {
+    .heading {
+        font-size: 50px;
+    }
+
+    .cardMain {
+        padding: 30px 25px 30px 25px;
+    }
+
+    .cardMain.noneTop {
+        padding: 50px 25px 50px 25px;
+    }
+}
+
+@media(max-width: 500px) {
+    .links {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 465px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .location {
+        text-align: center;
+    }
+
+    .locationIcon {
+        display: none;
+    }
+
+    .Card {
+        padding: 0px 20px;
+    }
+}

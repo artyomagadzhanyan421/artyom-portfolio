@@ -65,3 +65,20 @@
     height: 8px;
     border-radius: 50%;
 }
+
+@media(max-width: 500px) {
+    .cardOverlay .flow {
+        padding: 30px 35px;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 440px) {
+    .flowHead {
+        font-size: 20px;
+    }
+
+    .flowNum {
+        font-size: 100px;
+    }
+}

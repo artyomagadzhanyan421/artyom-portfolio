@@ -82,3 +82,21 @@
     margin-top: 9.8px;
     font-weight: 600;
 }
+
+@media(max-width: 520px) {
+    .pack {
+        flex-direction: column;
+        align-items: initial;
+        gap: 5px;
+    }
+    
+    .pack div p {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 465px) {
+    .packDetails {
+        padding: 50px 30px 50px 30px;
+    }
+}

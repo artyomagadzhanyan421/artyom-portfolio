@@ -19,6 +19,15 @@
     align-items: center;
     justify-content: space-between;
     font-weight: 600;
+    gap: 20px;
+}
+
+.faq div p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
 }
 
 .faq span {
@@ -26,7 +35,8 @@
     display: none;
     font-weight: 550;
     margin-top: 15px;
-    max-width: 450px;
+    max-width: 400px;
+    margin-right: 20px;
 }
 
 .faqIcon {
