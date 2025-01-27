@@ -8,7 +8,7 @@ function Projects() {
   const projects = useProjects();
 
   return (
-    <div className="Block" id="projects">
+    <div className="Block" id="works">
       <center>
         <p className="blockHeading">My works</p>
       </center>

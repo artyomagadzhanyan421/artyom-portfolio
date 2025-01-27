@@ -77,7 +77,7 @@ function Card() {
                                 <box-icon name='right-arrow-alt' color="blue"></box-icon>
                             </div>
                         </a>
-                        <a href="#projects" className='link grey'>
+                        <a href="#works" className='link grey'>
                             <span>My works</span>
                         </a>
                     </div>
