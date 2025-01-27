@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 // CSS
 import "../styles/Contact.css";
@@ -7,22 +8,78 @@ import "../styles/Contact.css";
 import "boxicons";
 
 function Contact() {
+    const formRef = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_8o03v5p",
+                "template_918opqp",
+                formRef.current,
+                "ZSiixRao-LhNSGWc8"
+            )
+            .then(
+                (result) => {
+                    alert("Message sent successfully!");
+                    console.log(result.text);
+                },
+                (error) => {
+                    alert("An error occurred. Please try again.");
+                    console.log(error.text);
+                }
+            );
+
+        e.target.reset();
+    };
+
     return (
-        <div className='Block' id='contact'>
+        <div className="Block" id="contact">
             <div className="myName">
                 <center>
-                    <img src="/avatar.jpg" className='avatar' alt="image" />
+                    <img src="/avatar.jpg" className="avatar" alt="avatar" />
                 </center>
                 <div>
-                    <div className='name'>
+                    <div className="name">
                         <p>Artyom Agadzhanyan</p>
-                        <box-icon type='solid' name='badge-check' size="22px" color="dodgerblue"></box-icon>
+                        <box-icon
+                            type="solid"
+                            name="badge-check"
+                            size="22px"
+                            color="dodgerblue"
+                        ></box-icon>
                     </div>
                     <p className="job">Web-designer, developer</p>
                     <div className="socials">
-                        <a href="#" target='_blank'><box-icon name='linkedin-square' type='logo' color="gray" size="19px"></box-icon></a>
-                        <a href="https://github.com/artyomagadzhanyan421" target='_blank'><box-icon name='github' type='logo' color="gray" size="19px"></box-icon></a>
-                        <a href="#" target='_blank'><box-icon name='twitter' type='logo' color="gray" size="19px"></box-icon></a>
+                        <a href="#" target="_blank" rel="noreferrer">
+                            <box-icon
+                                name="linkedin-square"
+                                type="logo"
+                                color="gray"
+                                size="19px"
+                            ></box-icon>
+                        </a>
+                        <a
+                            href="https://github.com/artyomagadzhanyan421"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <box-icon
+                                name="github"
+                                type="logo"
+                                color="gray"
+                                size="19px"
+                            ></box-icon>
+                        </a>
+                        <a href="#" target="_blank" rel="noreferrer">
+                            <box-icon
+                                name="twitter"
+                                type="logo"
+                                color="gray"
+                                size="19px"
+                            ></box-icon>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -34,26 +91,53 @@ function Contact() {
                                 <p className="blockHeading">Contact</p>
                             </center>
                             <center>
-                                <p className="blockDesc" style={{ maxWidth: "320px" }}>
-                                    Fill out the form, or reach out directly. I’ll respond within 24 hours.
+                                <p
+                                    className="blockDesc"
+                                    style={{ maxWidth: "320px" }}
+                                >
+                                    Fill out the form, or reach out directly. I’ll respond
+                                    within 24 hours.
                                 </p>
                             </center>
                         </div>
-                        <form>
-                            <input type="email" placeholder='Email' required />
-                            <input type="text" placeholder='Subject' required />
-                            <textarea placeholder='Message' required></textarea>
-                            <button>Send message</button>
+                        <form ref={formRef} onSubmit={sendEmail}>
+                            <input
+                                type="email"
+                                name="user_email"
+                                placeholder="Email"
+                                required
+                            />
+                            <input
+                                type="text"
+                                name="subject"
+                                placeholder="Subject"
+                                required
+                            />
+                            <textarea
+                                name="message"
+                                placeholder="Message"
+                                required
+                            ></textarea>
+                            <button type="submit">Send message</button>
                         </form>
                     </div>
                     <div className="location">
-                        <box-icon name='copyright' size="20px" color="grey"></box-icon>
-                        <p>Copyright 2025. <span style={{ fontWeight: "bold" }}>All rights Reserved.</span></p>
+                        <box-icon
+                            name="copyright"
+                            size="20px"
+                            color="grey"
+                        ></box-icon>
+                        <p>
+                            Copyright 2025.{" "}
+                            <span style={{ fontWeight: "bold" }}>
+                                All rights Reserved.
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Contact
+export default Contact;
