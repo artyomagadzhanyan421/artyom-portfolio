@@ -23,7 +23,7 @@ function Workflow() {
                     </div>
                     <div>
                         <span className='flowHead'>01. Discovery call</span>
-                        <p className="flowDesc">We’ll discuss your personal goals and long-term vision of your brand.</p>
+                        <p className="flowDesc">We’ll discuss your personal goals and the long-term vision of your brand.</p>
                     </div>
                 </div>
                 <div className="flow">
@@ -32,7 +32,7 @@ function Workflow() {
                     </div>
                     <div>
                         <span className='flowHead'>02. Custom design</span>
-                        <p className="flowDesc">I’ll create a custom design tailored to your needs that bring your brand to life.</p>
+                        <p className="flowDesc">I’ll create a custom design tailored to your needs that brings a fresh look.</p>
                     </div>
                 </div>
                 <div className="flow">
