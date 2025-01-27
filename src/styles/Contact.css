@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, 
+form textarea, 
+form button {
+    background: #f6f6f6;
+    resize: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+form button {
+    color: white;
+    background-color: blue;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: mediumblue;
+}
+
+form textarea {
+    height: 250px;
+}

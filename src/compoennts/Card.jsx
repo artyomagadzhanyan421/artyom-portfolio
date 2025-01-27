@@ -42,17 +42,17 @@ function Card() {
                         <div style={line2}></div>
                     </div>
                     <div className="myName">
-                        <img src="/avatar.jpg" alt="image" />
+                        <img src="/avatar.jpg" className='avatar' alt="image" />
                         <div>
                             <div className='name'>
                                 <p>Artyom Agadzhanyan</p>
                                 <box-icon type='solid' name='badge-check' size="22px" color="dodgerblue"></box-icon>
                             </div>
-                            <p className="job">Web developer</p>
+                            <p className="job">Web-designer, developer</p>
                             <div className="socials">
-                                <a href="#" target='_blank' style={{ display: "flex" }}><box-icon name='linkedin-square' type='logo' color="darkgray" size="22px"></box-icon></a>
-                                <a href="https://github.com/artyomagadzhanyan421" target='_blank' style={{ display: "flex" }}><box-icon name='github' type='logo' color="darkgray" size="22px"></box-icon></a>
-                                <a href="#" target='_blank' style={{ display: "flex" }}><box-icon name='twitter' type='logo' color="darkgray" size="22px"></box-icon></a>
+                                <a href="#" target='_blank'><box-icon name='linkedin-square' type='logo' color="gray" size="19px"></box-icon></a>
+                                <a href="https://github.com/artyomagadzhanyan421" target='_blank'><box-icon name='github' type='logo' color="gray" size="19px"></box-icon></a>
+                                <a href="#" target='_blank'><box-icon name='twitter' type='logo' color="gray" size="19px"></box-icon></a>
                             </div>
                         </div>
                     </div>

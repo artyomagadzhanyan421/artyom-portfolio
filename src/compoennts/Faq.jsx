@@ -13,7 +13,7 @@ function Faq() {
     return (
         <div className="Block">
             <center>
-                <p className="blockHeading">FAQ</p>
+                <p className="blockHeading" style={{ marginBottom: 0 }}>FAQ</p>
             </center>
             <div className="content">
                 <div className="faqs">
