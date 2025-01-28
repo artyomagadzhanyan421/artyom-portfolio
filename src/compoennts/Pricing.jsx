@@ -53,8 +53,8 @@ function Pricing() {
                             </div>
                             <p className="packDesc">{selectedData.description}</p>
                         </div>
-                        <a href="#contact" className="link">
-                            <span>Get Started</span>
+                        <a href="#" className="link">
+                            <span>Book a Call</span>
                             <div className="linkIcon">
                                 <box-icon name="right-arrow-alt" color="blue"></box-icon>
                             </div>
