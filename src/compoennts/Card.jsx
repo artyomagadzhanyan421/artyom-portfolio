@@ -71,7 +71,7 @@ function Card() {
                         </div>
                     </center>
                     <div className="links">
-                        <a href="#" className='link'>
+                        <a href="https://calendar.app.google/h4ykq5kbvESpQCQs9" target='_blank' className='link'>
                             <span>Book a Call</span>
                             <div className="linkIcon">
                                 <box-icon name='right-arrow-alt' color="blue"></box-icon>
