@@ -24,6 +24,15 @@ form button {
     transition: 0.3s;
 }
 
+.buttonDisabled {
+    background-color: royalblue;
+    cursor: not-allowed;
+}
+
+.buttonDisabled:hover {
+    background-color: royalblue;
+}
+
 form button:hover {
     background-color: mediumblue;
 }

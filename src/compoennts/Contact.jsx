@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 
 // CSS
@@ -9,9 +9,11 @@ import "boxicons";
 
 function Contact() {
     const formRef = useRef();
+    const [isLoading, setIsLoading] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setIsLoading(true);
 
         emailjs
             .sendForm("service_8o03v5p", "template_918opqp", formRef.current, "ZSiixRao-LhNSGWc8")
@@ -24,7 +26,10 @@ function Contact() {
                     alert("An error occurred. Please try again.");
                     console.log(error.text);
                 }
-            );
+            )
+            .finally(() => {
+                setIsLoading(false);
+            });
 
         e.target.reset();
     };
@@ -69,7 +74,9 @@ function Contact() {
                             <input type="email" name="user_email" placeholder="Email" required />
                             <input type="text" name="subject" placeholder="Subject" required />
                             <textarea name="message" placeholder="Message" required />
-                            <button type="submit">Send message</button>
+                            <button type="submit" className={isLoading ? "buttonDisabled" : ""} disabled={isLoading}>
+                                {isLoading ? "Sending..." : "Send message"}
+                            </button>
                         </form>
                     </div>
                     <div className="location">
