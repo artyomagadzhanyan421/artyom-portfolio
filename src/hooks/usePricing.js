@@ -13,8 +13,8 @@ const usePricingData = () => {
                 "Source code of the project",
                 "Fully responsive",
                 "Animation + Interactions",
-                "2 weeks delivery",
-                "3 revisions",
+                "6 days delivery",
+                "Unlimited revisions",
             ],
         },
         standard: {
@@ -28,8 +28,8 @@ const usePricingData = () => {
                 "Source code of the project",
                 "Fully responsive",
                 "Animation + Interactions",
-                "1 week delivery",
-                "2 revisions",
+                "4 days delivery",
+                "Unlimited revisions",
             ],
         },
     }), []);
