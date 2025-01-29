@@ -5,7 +5,7 @@ function useWorkflow() {
         {
             id: 1,
             title: 'Discovery call',
-            description: 'We’ll discuss your personal goals and the long-term vision of your brand.',
+            description: 'We’ll discuss your personal goals and the long-term vision of your website.',
         },
         {
             id: 2,

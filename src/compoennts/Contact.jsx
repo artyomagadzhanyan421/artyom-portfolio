@@ -53,7 +53,7 @@ function Contact() {
                         <a href="https://github.com/artyomagadzhanyan421" target="_blank">
                             <box-icon name="github" type="logo" color="gray" size="19px" />
                         </a>
-                        <a href="#" target="_blank">
+                        <a href="https://x.com/artyom593" target="_blank">
                             <box-icon name="twitter" type="logo" color="gray" size="19px" />
                         </a>
                     </div>

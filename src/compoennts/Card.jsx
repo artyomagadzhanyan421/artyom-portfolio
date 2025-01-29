@@ -52,7 +52,7 @@ function Card() {
                             <div className="socials">
                                 <a href="#" target='_blank'><box-icon name='linkedin-square' type='logo' color="gray" size="19px"></box-icon></a>
                                 <a href="https://github.com/artyomagadzhanyan421" target='_blank'><box-icon name='github' type='logo' color="gray" size="19px"></box-icon></a>
-                                <a href="#" target='_blank'><box-icon name='twitter' type='logo' color="gray" size="19px"></box-icon></a>
+                                <a href="https://x.com/artyom593" target='_blank'><box-icon name='twitter' type='logo' color="gray" size="19px"></box-icon></a>
                             </div>
                         </div>
                     </div>
