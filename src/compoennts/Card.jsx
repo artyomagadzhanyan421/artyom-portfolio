@@ -62,7 +62,7 @@ function Card() {
                             </div>
                         </div>
                     </div>
-                    <p className="heading">Create websites that work as hard as you do</p>
+                    <p className="heading">I create websites that work as hard as you do</p>
                     <center>
                         <div>
                             <div className="rate">
