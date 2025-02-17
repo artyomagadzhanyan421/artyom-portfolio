@@ -4,7 +4,7 @@ const usePricingData = () => {
     const pricingData = useMemo(() => ({
         professional: {
             title: "Professional",
-            price: "$150.00",
+            price: "$200.00",
             description:
                 "I will build a full website that reflects your brand, engages your users, and provides a smooth navigation experience across all devices.",
             details: [
@@ -19,7 +19,7 @@ const usePricingData = () => {
         },
         standard: {
             title: "Standard",
-            price: "$100.00",
+            price: "$150.00",
             description:
                 "I will build high-converting, visually compelling landing page that capture your audience’s attention and drive action.",
             details: [
