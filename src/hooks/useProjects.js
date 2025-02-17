@@ -26,6 +26,14 @@ const useProjects = () => {
             title: "CIPHER",
             description: "Cyber Security Website",
         },
+        {
+            id: 4,
+            href: "https://tech-product.vercel.app/",
+            imgSrc: "/projects/work4.png",
+            icon: { name: "grid-alt", color: "white", background: "#693def" },
+            title: "Lumify",
+            description: "Tech Product Website",
+        },
     ]);
 
     return projects;

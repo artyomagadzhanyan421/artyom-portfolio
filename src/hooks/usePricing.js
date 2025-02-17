@@ -14,7 +14,7 @@ const usePricingData = () => {
                 "Fully responsive",
                 "Animation + Interactions",
                 "6 days delivery",
-                "Unlimited revisions",
+                "3 revisions",
             ],
         },
         standard: {
@@ -29,7 +29,7 @@ const usePricingData = () => {
                 "Fully responsive",
                 "Animation + Interactions",
                 "4 days delivery",
-                "Unlimited revisions",
+                "2 revisions",
             ],
         },
     }), []);
