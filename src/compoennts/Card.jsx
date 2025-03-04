@@ -50,7 +50,7 @@ function Card() {
                             </div>
                             <p className="job">Web-developer, designer</p>
                             <div className="socials">
-                                <a href="#" target='_blank'>
+                                <a href="https://www.linkedin.com/in/artyom-agadzhanyan-78a015352/" target='_blank'>
                                     <box-icon name='linkedin-square' type='logo' color="gray" size="19px"></box-icon>
                                 </a>
                                 <a href="https://github.com/artyomagadzhanyan421" target='_blank'>
